@@ -1,0 +1,23 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "4539899",
+      "name": "定位",
+      "font_class": "dingwei",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "5586000",
+      "name": "电话",
+      "font_class": "dianhua",
+      "unicode": "e739",
+      "unicode_decimal": 59193
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+header{
+	height: 100px;
+	background:#000;
+}
+.logo-left{
+	float: left;
+}
+.logo-left a{
+	display: block;
+	padding-top: 35px;
+}
+.logo-left img,h2{
+	float: left;
+}
+.logo-left h2{
+	color:#FFF;
+}
+.logo-right{
+	float: left;
+	margin-left: 340px;
+}
+.logo-right ul{
+	float: left;
+}
+.logo-right li{
+	float: left;
+	margin-left: 40px;
+	line-height: 100px;
+}
+.logo-right li a{
+	font-size: 16px;
+	color: #FFF;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  left: -195px;  top: 100px;
+  background-color: #2A2D3F;
+  min-width: 550px;
+  padding: 12px 16px;
+}
+.dropdown-content span{
+	margin-left: 80px;
+}
+.dropdown .cp{
+	color: #FF6666;
+}
+.dropdown span:hover a{
+	color: #FF6666;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+  color: #FFF;
+}
+.logo-right input{
+	float: left;
+	width: 200px;
+	height: 38px;
+	margin-top: 31px;
+	margin-left: 39px;
+	border-radius: 5px;
+	background: url(../img/search.png)  #ccc no-repeat center right 10px;
+}
+footer span{
+	display: block;
+	width: 1200px;
+	margin: auto;
+	margin-top: 430px;
+	padding-left: 25px;
+	color: #5B5B5B;
+	font-size: 15px;
+}
+
+/* 内容 */
+.nr h3{
+	line-height: 162px;
+	font-size: 34px;
+	font-weight:normal;
+}
+.nr p{
+	line-height: 88px;
+	font-size: 20px;
+}
+.nr .img11{
+	margin-right: 12px;
+}
+.nr img{
+	transition: 2s;
+}
+
+.nr img:hover{
+		transform: scale(.8);
+}
+.nr p a{
+	color: black;
+	transition: 1s;
+}
+.nr p a:hover{
+	font-size:25px ;
+	color: darkorange;
+}
+
+
+
+
+
+
+
+
+
+footer{
+	height: 580px;
+	background-color: #000;
+}
+.foot-inner{
+	margin-top: 70px;
+	color: #fff;
+}
+.foot-inner ul{
+	float: left;
+	margin-left: 260px;
+}
+.foot-inner ul  p{
+	font-size: 17px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+.foot-inner li a{
+	font-size: 14px;
+	color: #FFF;
+	line-height: 31px;
+}

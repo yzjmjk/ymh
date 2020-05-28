@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>关于雅马哈</title>
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/gyymh.css" />
+		<link rel="shortcut icon" href="img/favicon.ico"/>
+	</head>
+	<body>
+<!-- ymh头部 -->
+<header>
+    <div class="logo gWidth">
+        <div class="logo-left">
+            <a href="index.html">
+                <img src="img/logo.png">
+                <h2>YAMAHA</h2>
+            </a>
+        </div>
+        <div class="logo-right">
+            <ul>
+                <li>
+                    <span><a href="index.html">首页</a></span>
+                </li>
+                <li>
+                    <div class="dropdown">
+                      <span><a href="Product list.html" >产品</a></span>
+                      <div class="dropdown-content">
+                        <span><a href="produc.html">钢琴</a></span>
+                        <span><a href="search.html">吉他</a></span>
+                        <span><a href="#">管乐器</a></span>
+                        <span><a href="#">电钢琴</a></span>
+                      </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown">
+                      <span><a href="xwhd.html" >新闻活动</a></span>
+                      <div class="dropdown-content">
+                        <span><a href="xwhd.html">近期活动</a></span>
+                        <span><a href="#">活动报道</a></span>
+                        <span><a href="#">产品资讯</a></span>
+                      </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown">
+                      <span><a href="#">会员系统</a></span>
+                      <div class="dropdown-content">
+                        <span><a href="#">产品注册</a></span>
+                      </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown">
+                      <span><a href="gyymh2.html"  class="cp">关于雅马哈</a></span>
+                      <div class="dropdown-content">
+                        <span><a href="jituangaikuang.html">雅马哈集团</a></span>
+                        <span><a href="company profile.html">雅马哈中国</a></span>
+                        <span><a href="gywm1.html">关于雅观</a></span>
+                      </div>
+                    </div>
+                </li>
+            </ul>
+            <input type="text" placeholder="   搜索" size="18" name="Text" id="btn" value="" onfocus="txtfocus(this)" onBlur="txtblur(this)"/>
+        </div>
+    </div>
+</header>
+<!-- end -->
+<!-- 你们要写的内容区 -->
+<main style="height:776px">
+<!-- 内容 -->
+<div class="nr gWidth">
+    <h3>关于雅马哈</h3>
+    <div>
+		<div class="fl">
+			<a href="jituangaikuang.html">
+				<img class="img11" src="img/ymjt.png" alt="#">
+			</a>
+			<p><a href="jituangaikuang.html">雅马哈集团</a></p>
+		</div>
+		<div class="fl">
+        	<a href="company profile.html">
+				<img class="img11" src="img/ymzg.png" alt="#">
+			</a>
+			<p><a href="company profile.html">雅马哈中国</a></p>
+		</div>
+		<div class="fl">
+        	<a href="#">
+				<img src="img/gyyg.png" alt="#">	
+			</a>
+			<p><a href="#">关于雅观</a></p>
+		</div>
+	</div>
+</div>
+       	
+
+
+
+
+
+
+</main>
+<!-- ymh尾部 -->
+<footer>
+    <img src="img/footerbanner.png">
+    <div class="foot-inner gWidth">
+        <ul style="margin-left: 0;">
+            <p>产品</p>
+            <li><a href="produc.html">钢琴</a></li>
+            <li><a href="search.html">吉他</a></li>
+            <li><a href="#">管乐器</a></li>
+            <li><a href="#">电钢琴</a></li>
+        </ul>
+        <ul>
+            <p>新闻活动</p>
+            <li><a href="xwhd.html">近期活动</a></li>
+            <li><a href="xwhdxiangqing.html">活动报道</a></li>
+            <li><a href="#">产品资讯</a></li>
+        </ul>
+        <ul>
+            <p>会员系统</p>
+            <li><a href="#">产品注册</a></li>
+        </ul>
+        <ul>
+            <p>关于雅马哈</p>
+            <li><a href="jituangaikuang.html">雅马哈集团</a></li>
+            <li><a href="company profile.html">雅马哈中国</a></li>
+            <li><a href="gywm1.html">关于雅观</a></li>
+        </ul>
+    </div>
+    <span>©Copyright diandongmark.com2019.All Rights Reserved 备案号 冀ICP备16018121号-4.</span>
+</footer>
+	<!-- end -->
+	</body>
+	<script type="text/javascript">
+		function txtfocus(obj){
+			obj.style.background = "#ccc";
+		}
+		function txtblur(obj){
+			obj.style.background = "#000";
+		}
+		function Tiao(){
+            var c = document.getElementById('btn').value 
+            if(c == '吉他'){
+                alert('不许为空')
+            }
+			window.open("search.html")
+        }
+        Tiao();
+	</script>
+</html>

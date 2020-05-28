@@ -1,0 +1,16 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "5121508",
+      "name": "三角右",
+      "font_class": "sanjiaoyou",
+      "unicode": "e645",
+      "unicode_decimal": 58949
+    }
+  ]
+}
